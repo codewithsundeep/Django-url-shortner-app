@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-lj8l!xsk+n)xwxkiic98f5pksb6)g4!82kcrq7mp^1vv%llka0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['sundeep-url-shortner.herokuapp.com']
+ALLOWED_HOSTS = ['sundeep-url-shortner.herokuapp.com','127.0.0.1']
 
 
 # Application definition
