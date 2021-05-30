@@ -1,0 +1,38 @@
+*,*::after,*::before,*::content{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family:tahoma ;
+}
+.container{
+          background-color: rgb(79, 139, 216);
+          
+}
+form{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+         padding: 30px;
+}
+form>input{
+          height: 30px;
+          width: 50%;
+          border-radius: 5px;
+          border: none;
+          outline: none;
+          margin: 1px;
+          background-color: #ccc;
+          color: #1b1717;
+          letter-spacing: 0.2em;
+          
+}
+form>input[type="submit"]{
+          cursor: pointer;
+} 
+h1::after{
+          content:" by sundeep sharma";
+          font-size: xx-small;
+          color: #fff;
+          margin-left: 1px;
+}
