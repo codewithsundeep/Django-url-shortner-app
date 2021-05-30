@@ -21,7 +21,6 @@ py-vapid==1.8.2
 pycodestyle==2.7.0
 pycparser==2.20
 Pygments==2.9.0
-pypiwin32==223
 pyshorteners==1.0.1
 pytz==2021.1
 pywebpush==1.9.4
